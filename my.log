@@ -1,0 +1,712 @@
+Aug 03, 2017 2:23:52 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:cdd-custom-jira-plugin-pom' did not find a matching property.
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.45
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 26 2017 20:06:07 UTC
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.45.0
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\apache-tomcat-8.0.45
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\apache-tomcat-8.0.45
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\apache-tomcat-8.0.45
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\apache-tomcat-8.0.45
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=C:\apache-tomcat-8.0.45\wtpwebapps
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\apache-tomcat-8.0.45\endorsed
+Aug 03, 2017 2:23:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+Aug 03, 2017 2:23:52 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Applications\Atlassian\atlassian-plugin-sdk-6.2.14\apache-maven-3.2.1\bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Google\Hangouts Plugin for Microsoft Outlook\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Git\bin\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\OpenVPN\bin;C:\Program Files\Git\bin\git.exe;C:\Users\joshkami\.babun;C:\Program Files\Docker Toolbox;;C:\Applications\Atlassian\atlassian-plugin-sdk-6.2.14\apache-maven-3.2.1\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\joshkami\AppData\Roaming\npm;C:\Applications\Atlassian\atlassian-plugin-sdk-6.2.14\bin;.
+Aug 03, 2017 2:23:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 03, 2017 2:23:54 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 03, 2017 2:23:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Aug 03, 2017 2:23:54 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 03, 2017 2:23:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2843 ms
+Aug 03, 2017 2:23:54 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 03, 2017 2:23:54 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.45
+Aug 03, 2017 2:23:58 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 2:23:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 2:23:59 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-8.0.45\webapps\cdd-custom-jira-plugin-pom.war
+Aug 03, 2017 2:23:59 PM org.apache.catalina.startup.ExpandWar expand
+INFO: An expanded directory [C:\apache-tomcat-8.0.45\webapps\cdd-custom-jira-plugin-pom] was found with a last modified time that did not match the associated WAR. It will be deleted.
+Aug 03, 2017 2:24:02 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 2:24:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 2:24:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\apache-tomcat-8.0.45\webapps\cdd-custom-jira-plugin-pom.war has finished in 3,989 ms
+Aug 03, 2017 2:24:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-8.0.45\webapps\CreateCustomJira.war
+Aug 03, 2017 2:24:06 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 2:24:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\apache-tomcat-8.0.45\webapps\CreateCustomJira.war has finished in 4,053 ms
+Aug 03, 2017 2:24:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-8.0.45\webapps\Sample.war
+Aug 03, 2017 2:24:09 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 2:24:10 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\apache-tomcat-8.0.45\webapps\Sample.war has finished in 2,586 ms
+Aug 03, 2017 2:24:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-8.0.45\webapps\docs
+Aug 03, 2017 2:24:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-8.0.45\webapps\docs has finished in 33 ms
+Aug 03, 2017 2:24:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-8.0.45\webapps\examples
+Aug 03, 2017 2:24:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Aug 03, 2017 2:24:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Aug 03, 2017 2:24:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-8.0.45\webapps\examples has finished in 1,287 ms
+Aug 03, 2017 2:24:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-8.0.45\webapps\host-manager
+Aug 03, 2017 2:24:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-8.0.45\webapps\host-manager has finished in 164 ms
+Aug 03, 2017 2:24:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-8.0.45\webapps\manager
+Aug 03, 2017 2:24:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-8.0.45\webapps\manager has finished in 173 ms
+Aug 03, 2017 2:24:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-8.0.45\webapps\ROOT
+Aug 03, 2017 2:24:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-8.0.45\webapps\ROOT has finished in 76 ms
+Aug 03, 2017 2:24:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Aug 03, 2017 2:24:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Aug 03, 2017 2:24:12 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 17859 ms
+Aug 03, 2017 2:43:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 2:43:47 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 2:43:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 2:43:49 PM org.glassfish.jersey.internal.Errors logErrors
+WARNING: The following warnings have been detected: WARNING: A resource, Resource{"dynamic-values/projects", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values/projects" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.
+
+Aug 03, 2017 2:43:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 2:44:37 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 2:44:41 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 2:44:41 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 2:44:43 PM org.glassfish.jersey.internal.Errors logErrors
+SEVERE: Following issues have been detected: 
+WARNING: No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.
+
+Aug 03, 2017 2:44:43 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@62301aa7]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=, defaultValue=null], Parameter [type=int, source=20, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 2:44:43 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet [Tieto Custom Plugin POM] in web application [/cdd-custom-jira-plugin] threw load() exception
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@62301aa7]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=, defaultValue=null], Parameter [type=int, source=20, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 2:44:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:01:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:01:19 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:01:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:01:20 PM org.glassfish.jersey.internal.Errors logErrors
+SEVERE: Following issues have been detected: 
+WARNING: No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.
+
+Aug 03, 2017 3:01:20 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@6214abf0]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:01:20 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet [Tieto Custom Plugin POM] in web application [/cdd-custom-jira-plugin] threw load() exception
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@6214abf0]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getRoleValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:01:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:03:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:04:03 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:04:03 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:04:04 PM org.glassfish.jersey.internal.Errors logErrors
+SEVERE: Following issues have been detected: 
+WARNING: No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.
+
+Aug 03, 2017 3:04:04 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@4a394e79]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:04:04 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet [Tieto Custom Plugin POM] in web application [/cdd-custom-jira-plugin] threw load() exception
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@4a394e79]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:04:04 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:04:29 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:04:33 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:04:33 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:04:35 PM org.glassfish.jersey.internal.Errors logErrors
+SEVERE: Following issues have been detected: 
+WARNING: No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.
+
+Aug 03, 2017 3:04:35 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@4c5a279f]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:04:35 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet [Tieto Custom Plugin POM] in web application [/cdd-custom-jira-plugin] threw load() exception
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@4c5a279f]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:04:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:08:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:08:19 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:08:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:08:20 PM org.glassfish.jersey.internal.Errors logErrors
+SEVERE: Following issues have been detected: 
+WARNING: No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.
+
+Aug 03, 2017 3:08:20 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@76910cad]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:08:20 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet [Tieto Custom Plugin POM] in web application [/cdd-custom-jira-plugin] threw load() exception
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.DynamicController, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@76910cad]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.DynamicController.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 03, 2017 3:08:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:20:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:20:36 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:20:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:20:37 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:56:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:56:26 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:56:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:56:27 PM org.glassfish.jersey.internal.Errors logErrors
+WARNING: The following warnings have been detected: WARNING: A resource, Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.
+
+Aug 03, 2017 3:56:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:58:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:58:33 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:58:33 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:58:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 3:59:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 3:59:53 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 3:59:53 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 3:59:54 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 4:05:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 4:05:28 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 4:05:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 4:05:29 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 03, 2017 4:07:04 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 03, 2017 4:07:07 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 03, 2017 4:07:08 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 03, 2017 4:07:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 04, 2017 9:58:41 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 04, 2017 9:58:59 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 04, 2017 9:59:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 04, 2017 9:59:01 AM org.glassfish.jersey.internal.Errors logErrors
+SEVERE: Following issues have been detected: 
+WARNING: No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.
+WARNING: A resource, Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.
+
+Aug 04, 2017 9:59:01 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[WARNING] A resource, Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.; source='Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}', [FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.CustomJiraCreateTask, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@320dd180]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 04, 2017 9:59:01 AM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet [Tieto Custom Plugin POM] in web application [/cdd-custom-jira-plugin] threw load() exception
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[WARNING] A resource, Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.; source='Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}', [FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.CustomJiraCreateTask, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@320dd180]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 04, 2017 9:59:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 04, 2017 9:59:24 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 04, 2017 9:59:28 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 04, 2017 9:59:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 04, 2017 9:59:31 AM org.glassfish.jersey.internal.Errors logErrors
+SEVERE: Following issues have been detected: 
+WARNING: No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.
+WARNING: A resource, Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.
+
+Aug 04, 2017 9:59:31 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[WARNING] A resource, Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.; source='Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}', [FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.CustomJiraCreateTask, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@4220f847]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 04, 2017 9:59:31 AM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet [Tieto Custom Plugin POM] in web application [/cdd-custom-jira-plugin] threw load() exception
+org.glassfish.jersey.server.model.ModelValidationException: Validation of the application resource model has failed during application initialization.
+[[WARNING] A resource, Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}, with path "dynamic-values" is empty. It has no resource (or sub resource) methods neither sub resource locators defined.; source='Resource{"dynamic-values", 0 child resources, 0 resource methods, 0 sub-resource locator, 0 method handler classes, 0 method handler instances}', [FATAL] No injection source found for a parameter of type public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception at index 0.; source='ResourceMethod{httpMethod=POST, consumedTypes=[], producedTypes=[application/json], suspended=false, suspendTimeout=0, suspendTimeoutUnit=MILLISECONDS, invocable=Invocable{handler=ClassBasedMethodHandler{handlerClass=class com.tieto.jira.customPlugin.pom.CustomJiraCreateTask, handlerConstructors=[org.glassfish.jersey.server.model.HandlerConstructor@4220f847]}, definitionMethod=public com.ca.rp.plugins.dto.model.DynamicValuesOutput com.tieto.jira.customPlugin.pom.CustomJiraCreateTask.getDynamicProjectValues(com.ca.rp.plugins.dto.model.DynamicValuesInput,java.lang.String,int) throws java.lang.Exception, parameters=[Parameter [type=class com.ca.rp.plugins.dto.model.DynamicValuesInput, source=null, defaultValue=null], Parameter [type=class java.lang.String, source=filter, defaultValue=null], Parameter [type=int, source=max_results, defaultValue=null]], responseType=class com.ca.rp.plugins.dto.model.DynamicValuesOutput}, nameBindings=[]}']
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:555)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:184)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:350)
+	at org.glassfish.jersey.server.ApplicationHandler$3.call(ApplicationHandler.java:347)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:255)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:347)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:390)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:172)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:364)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1027)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5038)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5348)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3869)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 04, 2017 9:59:31 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 04, 2017 10:27:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 04, 2017 10:27:10 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 04, 2017 10:27:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 04, 2017 10:27:11 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 04, 2017 10:32:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 04, 2017 10:32:13 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 04, 2017 10:32:13 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 04, 2017 10:32:14 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
+Aug 04, 2017 10:38:20 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] has started
+Aug 04, 2017 10:38:25 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 04, 2017 10:38:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 04, 2017 10:38:27 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/cdd-custom-jira-plugin] is completed
