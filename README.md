@@ -1,3 +1,3 @@
 # my-maven-project
 test file
-if success
+check if success
