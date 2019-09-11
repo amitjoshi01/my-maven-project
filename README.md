@@ -1,3 +1,3 @@
 # my-maven-project
 test file
-now good to release
+hopefully now good to release
