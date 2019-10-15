@@ -1,2 +1,2 @@
 # my-maven-project
-test file check if success
+test check if success
