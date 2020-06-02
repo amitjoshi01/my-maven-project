@@ -1,2 +1,2 @@
 This is a test document
-Added 1 more line to it
+Added one more line to it
