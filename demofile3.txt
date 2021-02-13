@@ -1,0 +1,79 @@
+joshkami-test: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-d255d2a4-20a5-403e-8469-0fcc7c0824ae           11.249.8.2          medium.disk         1.9%                1.2%                0.2%                30% (1.2 GB)        
+vm-2e95c32e-5292-41e2-a34b-8e8a260419dd           11.249.8.4          medium.disk         1.7%                0.8%                0.0%                30% (1.2 GB)        
+vm-b6b27cd4-7862-4d0f-9e0d-c974be034b56           11.249.8.5          medium.disk         1.8%                1.2%                0.0%                34% (1.4 GB)        
+vm-d2a864c4-ac65-4552-9960-f52fa42ed068           11.249.8.3          medium.disk         2.0%                1.0%                0.0%                34% (1.4 GB)        
+
+joshkami-test-2: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+
+joshkami-banzaikafka: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-1a86bce2-de54-4f94-b409-b5f86f27644e           11.249.12.2         xlarge              2.0%                1.1%                0.4%                15% (2.5 GB)        
+vm-fbb4e144-5354-469b-8e02-a624e5554920           11.249.12.3         xlarge              0.9%                0.5%                0.3%                11% (1.8 GB)        
+vm-07bc05ae-2bb9-48c0-956e-a118bd4933a0           11.249.12.4         xlarge              3.0%                3.6%                0.3%                11% (1.9 GB)        
+vm-968a0085-37ef-4a6f-a0c5-83d93557dc4d           11.249.12.6         xlarge              1.6%                2.0%                0.0%                32% (5.3 GB)        
+vm-43971b12-7ea4-4f3f-8dd2-b10440d91c34           11.249.12.5         xlarge              1.9%                1.0%                0.0%                16% (2.7 GB)        
+vm-79515fca-3ec0-472d-a80e-14fb7dc4a503           11.249.12.9         xlarge              1.7%                0.8%                0.0%                13% (2.1 GB)        
+vm-7c03ce4e-410c-4778-baca-cfe9e0c52e9c           11.249.12.7         xlarge              1.1%                1.1%                0.0%                11% (1.8 GB)        
+vm-b8594d77-5a45-48a6-a909-84098a8c825f           11.249.12.8         xlarge              1.6%                0.8%                0.0%                12% (2.0 GB)        
+
+common: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-177724d8-1196-48b2-a5c1-9735ec7d8558           11.249.5.4          xlarge              2.5%                1.0%                0.2%                13% (2.1 GB)        
+vm-45e73726-c4dd-4436-8eee-b1e97890cf6e           11.249.5.3          xlarge              1.8%                0.9%                0.1%                11% (1.9 GB)        
+vm-4248ba6c-f62c-4d02-a085-17133d639197           11.249.5.2          xlarge              1.5%                0.9%                0.2%                15% (2.4 GB)        
+vm-851074cc-c1de-4238-9472-00d13e6d090a           11.249.5.5          medium.disk         6.1%                1.6%                0.1%                45% (1.8 GB)        
+vm-f52defbd-478d-4e9c-846f-a4c0a58215c1           11.249.5.6          medium.disk         5.3%                2.6%                0.0%                65% (2.6 GB)        
+vm-1dcaeb5b-d591-47ce-9c43-d7b775fabc59           11.249.5.7          medium.disk         5.7%                2.2%                0.3%                75% (3.0 GB)        
+vm-40e98c16-0a37-473a-8b69-7b27f9884fe7           11.249.5.8          medium.disk         5.8%                1.9%                0.1%                71% (2.9 GB)        
+vm-6b42d76a-6df0-497f-9cbf-9454b2b94b8e           11.249.5.9          medium.disk         3.9%                1.6%                0.1%                60% (2.4 GB)        
+
+joshkami-test-new: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-99927c33-391c-446b-859f-fa93b28bda74           11.249.11.2         medium.disk         1.6%                0.7%                0.3%                31% (1.2 GB)        
+vm-2784a247-cb96-4269-a68f-770ad7ec76c4           11.249.11.5         medium.disk         2.1%                0.8%                0.1%                33% (1.3 GB)        
+vm-dc6e8373-a75b-4d5a-b647-8fb62714230b           11.249.11.4         medium.disk         1.6%                0.8%                0.0%                30% (1.2 GB)        
+vm-3e8702c6-417b-4638-aee9-aeacbefbae5e           11.249.11.3         medium.disk         1.9%                0.9%                0.0%                31% (1.3 GB)        
+
+a9s-tests: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-1c966b63-1a95-4e57-872e-92df092a7cfa           11.249.7.2          medium.disk         1.9%                1.4%                0.2%                35% (1.4 GB)        
+vm-325b1a2c-0564-40ad-a769-a15018880639           11.249.7.5          medium.disk         2.1%                0.9%                0.0%                34% (1.4 GB)        
+vm-5cdfc15e-fd86-4b8e-870c-b315b422a327           11.249.7.3          medium.disk         2.2%                1.1%                0.2%                37% (1.5 GB)        
+vm-af625c86-7c2f-452a-8456-3f470c41464d           11.249.7.4          medium.disk         1.7%                0.8%                0.0%                30% (1.2 GB)        
+
+minio: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-4f81d64e-ea41-41d0-91bf-b5bc283978a1           11.249.4.3          xlarge              0.6%                0.6%                0.1%                10% (1.6 GB)        
+vm-f5c09aa9-f28b-4367-91e3-a5c17a2f85bc           11.249.4.2          xlarge              1.5%                0.8%                0.1%                13% (2.1 GB)        
+vm-aa0f461d-c7e5-4b7a-9640-629928f1f766           11.249.4.4          xlarge              1.5%                0.5%                0.1%                10% (1.7 GB)        
+vm-e782ff45-ff73-448a-939a-4b998d4bfd92           11.249.4.5          xlarge              1.8%                0.8%                0.0%                24% (4.0 GB)        
+vm-60fc7b80-cd14-40de-be5a-4619b8a1c61c           11.249.4.7          xlarge              1.9%                1.1%                0.0%                28% (4.6 GB)        
+vm-99961367-fd2f-485e-9ca5-4c7768b37164           11.249.4.6          xlarge              3.1%                1.8%                0.1%                18% (2.9 GB)        
+vm-0ffd6fef-b559-45d3-9668-227bc5068761           11.249.4.8          xlarge              1.7%                0.9%                0.0%                27% (4.4 GB)        
+vm-43ef643d-139f-4d8b-ac6b-eb87e344d375           11.249.4.9          xlarge              2.2%                0.8%                0.1%                21% (3.4 GB)        
+
+ossi-test: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-7fd5a69e-823c-490a-9db2-b6fd2b66f529           11.249.10.4         xlarge              0.8%                0.6%                0.1%                10% (1.7 GB)        
+vm-1c2dec03-38f3-40b9-8fad-ea6bb302a133           11.249.10.2         xlarge              1.1%                0.7%                0.1%                13% (2.2 GB)        
+vm-85257c2a-b7fa-4085-9a24-b2bea679d199           11.249.10.3         xlarge              0.9%                0.6%                0.1%                10% (1.6 GB)        
+vm-1a7ec585-4e11-4d3b-8cef-070bc67c17c2           11.249.10.7         medium.disk         1.5%                0.8%                0.0%                29% (1.2 GB)        
+vm-8e270b42-9c0e-4438-8881-2ad3e808104b           11.249.10.6         medium.disk         1.7%                0.8%                0.0%                36% (1.5 GB)        
+vm-c48fe1b8-7965-4b5d-8dfe-4f175b56a73c           11.249.10.9         medium.disk         1.9%                0.8%                0.0%                33% (1.3 GB)        
+vm-9aa255a8-7ff9-464f-812a-d4935652ee5c           11.249.10.8         medium.disk         1.9%                0.8%                0.0%                29% (1.2 GB)        
+vm-d1c016d8-e8e8-4a92-836c-92abb382a6e8           11.249.10.5         medium.disk         1.9%                0.9%                0.0%                35% (1.4 GB)        
+
+labtest-support-services: 
+VM CID                                            IP Address          VM Type             CPU User            CPU sys             CPU Wait            Memory Usage        
+vm-ed15caa9-52cb-4b15-8937-d2107de5de07           11.8.25.2           xlarge              1.3%                0.8%                0.1%                14% (2.2 GB)        
+vm-200f983b-f330-428a-bd0a-ce3842f0fec5           11.8.25.3           xlarge              0.8%                0.5%                0.1%                9% (1.4 GB)         
+vm-a40e3d26-a4cc-4cc9-a2be-a3e3a963b626           11.8.25.4           xlarge              0.7%                0.5%                0.2%                10% (1.7 GB)        
+vm-256ea48d-94e3-4620-9eda-69320f1681ac           11.8.25.7           medium.disk         1.6%                1.0%                0.0%                29% (1.2 GB)        
+vm-61b9f343-28ae-47cb-bd35-8e71da89aa91           11.8.25.5           medium.disk         1.7%                0.8%                0.0%                34% (1.4 GB)        
+vm-27ebf311-9d92-4543-8dab-cb11b8c49122           11.8.25.9           medium.disk         1.6%                1.0%                0.0%                33% (1.3 GB)        
+vm-b2f4aa00-eddd-4e42-8ccd-d85a696aa2a3           11.8.25.6           medium.disk         1.9%                0.8%                0.0%                34% (1.4 GB)        
+vm-f301c5d7-1de9-4684-8609-6477d571859d           11.8.25.8           medium.disk         1.7%                0.8%                0.0%                30% (1.2 GB)        
+
